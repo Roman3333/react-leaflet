@@ -1,0 +1,11 @@
+.footer {
+  height: 60px;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  background-color: #39383b;
+
+  &Copy {
+    text-align: center;
+  }
+}

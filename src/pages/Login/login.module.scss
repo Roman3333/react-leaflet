@@ -1,0 +1,43 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &Form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &Input {
+    width: 220px;
+    height: 28px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+    outline: none;
+
+    &:focus {
+      border: 2px solid #000;
+    }
+  }
+
+  &Btn {
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    color: #fff;
+    background: #141414;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      background: #000;
+    }
+  }
+}
