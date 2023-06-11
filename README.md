@@ -4,4 +4,4 @@ react-leaflet/rtk-query/json-server/typescript
 
 Для запуска проекта сначало запускаем 'json-server': 
 1) json-server --watch db.json --port 4000 
-2) 2) npm run dev
+2) npm run dev
