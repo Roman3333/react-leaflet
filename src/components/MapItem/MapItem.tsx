@@ -6,11 +6,11 @@ import { useUpdateModelMutation, useDeleteModelMutation } from '../../redux/api/
 import { IModel } from '../../types/model';
 import styles from './mapItem.module.scss';
 
-interface PostItemProps {
+interface MapItemProps {
   model: IModel;
 }
 
-export const MapItem: FC<PostItemProps> = ({ model }) => {
+export const MapItem: FC<MapItemProps> = ({ model }) => {
   const [info, setInfo] = useState({ name: model.name, amount: model.amount });
   const [isEditing, setIsEditing] = useState(false);
   const markerRef = useRef(null);
